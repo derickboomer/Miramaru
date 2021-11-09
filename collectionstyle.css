@@ -1,0 +1,213 @@
+
+
+.center 
+{
+    display: block;
+    text-align:center;
+    margin: auto;
+    position:relative;
+}
+
+.buttontxt
+{
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: #8E542F;
+    margin-left: 6px
+}
+
+.buttontxt:hover 
+{
+    color: red;
+}
+
+#accbtn
+{
+    display: block;
+    position: absolute;
+    left: 10em;
+    top: 3em;
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: #8E542F;
+}
+
+#accbtn:hover
+{
+    background-color: white;
+}
+
+#srchbtn
+{
+    display: block;
+    position: absolute;
+    right: 15em;
+    top: 3em;
+    font-size: 15px;
+    background: none;
+    border: none;
+}
+
+#srchbtn:hover
+{
+    background-color: white;
+}
+
+#cartbtn
+{
+    display: block;
+    position: absolute;
+    right: 10em;
+    top: 2.8em;
+    font-size: 15px;
+    background: none;
+    border: none;
+}
+
+#cartbtn:hover
+{
+    background-color: white;
+}
+
+
+body {
+    background-color: #f3e3d3;
+}
+
+#note {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #8e5431;
+}
+
+.icons{
+    background: none;
+    display: block;
+    text-align:center;
+    
+    
+    
+}
+
+.button{
+    margin:100px;
+    padding: 5px;
+    border:none;
+    background: none;
+}
+
+.button:hover{
+background-color: burlywood;
+
+}
+
+
+
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #8e5431;
+    
+}
+.collections{
+    position: static;
+    background-color: #f3e3d3;
+    padding: 5%
+    
+}
+.col{
+    margin: 0;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    align-items: flex-start;
+    padding: 1%
+
+}
+
+.productname{
+    
+    margin: 0;
+    padding: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size:20px ;
+
+}
+
+.price{
+    
+    
+    color: black;
+}
+
+.bid{
+   position: relative;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+    background-color: #9b6b43; 
+    color: white;
+    height: 45px ;
+    width: 200px;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+.bid:hover{
+    background-color: darkgreen;
+}
+
+footer {
+    
+    position: absolute;
+    left:0;
+    right:0;
+    padding-bottom:5em;
+    padding-right:5em;
+    background-color: #8E542F;
+    color: white;
+    width: auto;
+ }
+
+.pfoot
+{
+    font-size: 20px;
+    color: #EBCBAA;
+}
+
+#signup
+{
+    font-size: 25px;
+    margin-top:2em;
+    margin-bottom:20px;
+    color: #EBCBAA;
+}
+
+#emailbtn
+{
+    background: none;
+    border: 3px solid #EBCBAA;
+    color: #EBCBAA;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    display: block;
+    position: absolute;
+    display: block;
+}
+
+#emailbtn:hover
+{
+    background: #A0936C;
+    color: red;
+}
+
+
